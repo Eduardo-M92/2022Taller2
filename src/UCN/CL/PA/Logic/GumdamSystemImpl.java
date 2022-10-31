@@ -1,5 +1,6 @@
 package UCN.CL.PA.Logic;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -500,12 +501,25 @@ public class GumdamSystemImpl implements GumdamSystem
 			ro = robotos.obtenerI(a);
 			pw6.println(ro.getName()+","+ro.getNameArms()+","+ro.getNameLegs()+","+ro.getNameHead()+","+ro.getExtraQuality()+","+ro.getNameChest()+","+ro.getNameWeapon()+","+ro.getTeam()+","+ro.getPilotCode());
 		}
+		
+		String ruta = new File (".").getAbsolutePath ()+"modelos.txt";
+		File file = new File(ruta);
+        file.createNewFile();
+		FileWriter modelos = new FileWriter(file);
+		PrintWriter pw7 = new PrintWriter(modelos);
+		Model mo = null;
+		for(int a=0;a<models.getCant();a++)
+		{
+			mo = models.obtenerI(a);
+			pw7.println(mo.getModelCode()+","+mo.getRobotName());
+		}
 		pw1.close();
 		pw2.close();
 		pw3.close();
 		pw4.close();
 		pw5.close();
 		pw6.close();
+		pw7.close();
 		
 	}
 	

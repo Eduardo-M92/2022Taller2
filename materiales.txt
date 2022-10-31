@@ -1,1 +1,3 @@
 Cobre,10000,Chile
+Diamante,0,Japon
+Acero,0,Peru
