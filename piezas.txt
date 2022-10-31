@@ -1,0 +1,6 @@
+casco samurai,00001,cabeza,Japon,100
+casco samsung,00002,cabeza,Korea,50
+brazos fuertes,00003,brazos,Chile,100
+piernas de acero,00004,piernas,Chile,100
+cabeza gumdam,00005,Cabeza,Chile,100
+alas de mitrilo,00006,Torax,Chile,100

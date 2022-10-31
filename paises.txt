@@ -1,0 +1,2 @@
+Japon,cabeza samsung,10,00001,Diamante
+Peru,piernas de acero,5,00002,Acero

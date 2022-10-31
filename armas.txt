@@ -1,0 +1,2 @@
+metralleta circular,00002,1000,Chile,1000
+escopeta,00012,600,Chile,1000
